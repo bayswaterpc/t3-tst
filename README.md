@@ -8,6 +8,12 @@ As per [T3-Axiom #3](https://github.com/t3-oss/create-t3-app/tree/next#3-typesaf
 
 We try to emphasize that these files are javascript for a reason, by explicitly declaring its type (`cjs` or `mjs`) depending on what's supported by the library it is used by. Also, all the `js` files in this project are still typechecked using a `@ts-check` comment at the top.
 
+## Getting Started
+
+- `npm install`
+- `npm run postinstall`
+- `npm run dev`
+
 ## What's next? How do I make an app with this?
 
 We try to keep this project as simple as possible, so you can start with the most basic configuration and then move on to more advanced configuration.

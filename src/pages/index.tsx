@@ -5,6 +5,9 @@ import { trpc } from "../utils/trpc";
 const Home: NextPage = () => {
   const hello = trpc.proxy.example.hello.useQuery({ text: "from tRPC" });
 
+  //TODO:  Go deeper into authentication
+  //const restricted = trpc.proxy.auth.getSession
+
   return (
     <>
       <Head>
